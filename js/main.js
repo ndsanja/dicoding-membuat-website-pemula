@@ -113,7 +113,7 @@ showcase.insertAdjacentHTML(
   showcaseData
     .map(
       (e) => `
-  <article class="showcase">
+  <div class="showcase">
     <img src="assets/showcase1.jpg" alt="Showcase 1" />
       <h2>${e.title}</h2>
       <section class="stacks">
@@ -136,7 +136,7 @@ showcase.insertAdjacentHTML(
         )
         .join('')}
       </section>
-  </article>
+  </div>
   `
     )
     .join('')
@@ -148,12 +148,12 @@ skill.insertAdjacentHTML(
   skillsData
     .map(
       (e) => `
-  <article class="skills">
+  <div class="skills">
     <img src="assets/${e.img}" alt="${e.title}" />
     <div class="content">
       <a href="${e.url}" target="_blank">${e.title}</a>
     </div>
-  </article>
+  </div>
   `
     )
     .join('')
