@@ -67,6 +67,41 @@ let skillsData = [
     img: 'skills/Belajar Dasar Git dengan GitHub.png',
     url: 'https://www.dicoding.com/users/niladwisanja/academies',
   },
+  {
+    title: 'Belajar Dasar Google Cloud',
+    img: 'skills/Belajar Dasar Google Cloud.png',
+    url: 'https://www.dicoding.com/users/niladwisanja/academies',
+  },
+  {
+    title: 'Belajar Dasar Manajemen Proyek',
+    img: 'skills/Belajar Dasar Manajemen Proyek.png',
+    url: 'https://www.dicoding.com/users/niladwisanja/academies',
+  },
+  {
+    title: 'Belajar Dasar Visualisasi Data',
+    img: 'skills/Belajar Dasar Visualisasi Data.png',
+    url: 'https://www.dicoding.com/users/niladwisanja/academies',
+  },
+  {
+    title: 'Belajar Membuat Aplikasi Back-End untuk Pemula',
+    img: 'skills/Belajar Membuat Aplikasi Back-End untuk Pemula.png',
+    url: 'https://www.dicoding.com/users/niladwisanja/academies',
+  },
+  {
+    title: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud).png',
+    img: 'skills/Cloud Practitioner Essentials (Belajar Dasar AWS Cloud).png',
+    url: 'https://www.dicoding.com/users/niladwisanja/academies',
+  },
+  {
+    title: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
+    img: 'skills/Cloud Practitioner Essentials (Belajar Dasar AWS Cloud).png',
+    url: 'https://www.dicoding.com/users/niladwisanja/academies',
+  },
+  {
+    title: 'Pengenalan ke Logika Pemrograman (Programming Logic 101)',
+    img: 'skills/Pengenalan ke Logika Pemrograman (Programming Logic 101).png',
+    url: 'https://www.dicoding.com/users/niladwisanja/academies',
+  },
 ];
 
 let showcase = document.getElementById('showcase');
@@ -115,7 +150,9 @@ skill.insertAdjacentHTML(
       (e) => `
   <article class="skills">
     <img src="assets/${e.img}" alt="${e.title}" />
-    <a href="${e.url}" target="_blank">${e.title}</a>
+    <div class="content">
+      <a href="${e.url}" target="_blank">${e.title}</a>
+    </div>
   </article>
   `
     )

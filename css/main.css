@@ -75,7 +75,7 @@ main {
 #showcase {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 32px;
   margin-bottom: 50px;
 }
 
@@ -140,7 +140,7 @@ main {
 #skills {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 32px;
 }
 
 .skills {
@@ -151,12 +151,14 @@ main {
   padding-bottom: 12px;
 }
 
+.skills .content {
+  padding: 0 12px;
+}
 .skills a {
   color: black;
-  padding: 0 12px;
   margin-top: 8px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 300;
   text-decoration: underline;
 }
 
