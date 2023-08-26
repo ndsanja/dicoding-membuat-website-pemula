@@ -27,6 +27,7 @@ a {
   padding: 16px 32px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navigation ul {
@@ -216,6 +217,37 @@ footer p {
   text-align: center;
   font-size: 12px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero img {
+    width: 500px;
+  }
+  main {
+    flex-direction: column;
+  }
+
+  .profile {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation .dekstop {
+    display: none;
+  }
+
+  .hero img {
+    right: -50%;
+    width: 400px;
+  }
+
+  #showcase {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  #skills {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {
