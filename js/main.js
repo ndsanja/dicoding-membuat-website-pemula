@@ -106,6 +106,33 @@ let skillsData = [
 
 let showcase = document.getElementById('showcase');
 let skill = document.getElementById('skills');
+let burger = document.getElementById('burger');
+let mobileMenuItem = document.querySelectorAll('.menu-item');
+let mobileMenu = document.querySelector('.mobile');
+
+//handle mobile mwnu
+let isOpen = false;
+
+burger?.addEventListener('click', () => {
+  isOpen = !isOpen;
+  if (isOpen) {
+    mobileMenu.classList.add('hidden');
+  } else {
+    mobileMenu.classList.remove('hidden');
+  }
+});
+
+mobileMenuItem?.forEach((e) => {
+  e.addEventListener('click', () => {
+    isOpen = !isOpen;
+    if (isOpen) {
+      mobileMenu.classList.add('hidden');
+    } else {
+      mobileMenu.classList.remove('hidden');
+    }
+  });
+});
+console.log(isOpen);
 
 // Mapping Shocase Card
 showcase.insertAdjacentHTML(

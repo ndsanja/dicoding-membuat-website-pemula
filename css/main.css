@@ -40,6 +40,26 @@ a {
   text-decoration: underline;
 }
 
+#burger {
+  display: none;
+}
+
+.navigation .hidden {
+  display: none;
+}
+
+.navigation .mobile {
+  position: fixed;
+  background: #000;
+  color: white;
+  inset: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 40px;
+}
+
 .hero {
   padding: 0 32px;
   min-height: 300px;
@@ -229,12 +249,20 @@ footer p {
 
   .profile {
     margin-top: 42px;
+    min-width: 0px;
+    margin-left: 0px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .navigation .dekstop {
     display: none;
+  }
+
+  #burger {
+    display: block;
+    cursor: pointer;
   }
 
   .hero img {
