@@ -1,19 +1,19 @@
 let showcaseData = [
   {
     title: 'ND Sanja Web',
-    img: 'showcase1.png',
+    img: 'showcase/ndsanja web.png',
     stacks: [
       {
         title: 'HTML',
-        url: 'https://google.com',
+        url: 'https://www.w3schools.com/html',
       },
       {
         title: 'CSS',
-        url: 'https://google.com',
+        url: 'https://www.w3schools.com/css',
       },
       {
         title: 'Javascript',
-        url: 'https://google.com',
+        url: 'https://www.w3schools.com/js',
       },
     ],
     links: [
@@ -29,23 +29,23 @@ let showcaseData = [
   },
   {
     title: 'Ulem',
-    img: 'showcase1.png',
+    img: 'showcase/ulem.png',
     stacks: [
       {
         title: 'Typescript',
-        url: 'https://google.com',
+        url: 'https://typescriptlang.org',
       },
       {
         title: 'Nuxt Js',
-        url: 'https://google.com',
+        url: 'https://nuxt.com',
       },
       {
         title: 'Vue Js',
-        url: 'https://google.com',
+        url: 'https://vuejs.org',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
     ],
     links: [
@@ -61,23 +61,23 @@ let showcaseData = [
   },
   {
     title: 'Duapuluh17',
-    img: 'showcase1.png',
+    img: 'showcase/duapuluh17.png',
     stacks: [
       {
         title: 'Typescript',
-        url: 'https://google.com',
+        url: 'https://typescriptlang.org',
       },
       {
         title: 'Next Js',
-        url: 'https://google.com',
+        url: 'https://nextjs.org',
       },
       {
         title: 'React Js',
-        url: 'https://google.com',
+        url: 'https://react.dev',
       },
       {
         title: 'Mantine Css',
-        url: 'https://google.com',
+        url: 'https://mantine.dev',
       },
     ],
     links: [
@@ -93,27 +93,27 @@ let showcaseData = [
   },
   {
     title: 'Mili',
-    img: 'showcase1.png',
+    img: 'showcase/mili.png',
     stacks: [
       {
         title: 'Typescript',
-        url: 'https://google.com',
+        url: 'https://typescriptlang.org',
       },
       {
         title: 'Next Js',
-        url: 'https://google.com',
+        url: 'https://nextjs.org',
       },
       {
         title: 'React Js',
-        url: 'https://google.com',
+        url: 'https://react.dev',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
       {
         title: 'Framer Motion',
-        url: 'https://google.com',
+        url: 'https://framer.com',
       },
     ],
     links: [
@@ -129,23 +129,23 @@ let showcaseData = [
   },
   {
     title: 'Pijar',
-    img: 'showcase1.png',
+    img: 'showcase/pijar.png',
     stacks: [
       {
         title: 'Typescript',
-        url: 'https://google.com',
+        url: 'https://typescriptlang.org',
       },
       {
         title: 'Sveltekit',
-        url: 'https://google.com',
+        url: 'https://kit.svelte.dev',
       },
       {
         title: 'Svelte',
-        url: 'https://google.com',
+        url: 'https://svelte.dev',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
     ],
     links: [
@@ -161,23 +161,23 @@ let showcaseData = [
   },
   {
     title: 'Pijar - Sekolah Terbuka',
-    img: 'showcase1.png',
+    img: 'showcase/pijar-sekolah-terbuka.png',
     stacks: [
       {
         title: 'Typescript',
-        url: 'https://google.com',
+        url: 'https://typescriptlang.org',
       },
       {
         title: 'Nuxt Js',
-        url: 'https://google.com',
+        url: 'https://muxt.com',
       },
       {
         title: 'Vue Js',
-        url: 'https://google.com',
+        url: 'https://vuejs.org',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
     ],
     links: [
@@ -193,23 +193,23 @@ let showcaseData = [
   },
   {
     title: 'Sunnyside Agency',
-    img: 'showcase1.png',
+    img: 'showcase/showcase1.jpg',
     stacks: [
       {
         title: 'Typescript',
-        url: 'https://google.com',
+        url: 'https://typescriptlang.org',
       },
       {
         title: 'Next Js',
-        url: 'https://google.com',
+        url: 'https://nextjs.org',
       },
       {
         title: 'React Js',
-        url: 'https://google.com',
+        url: 'https://react.dev',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
     ],
     links: [
@@ -225,23 +225,23 @@ let showcaseData = [
   },
   {
     title: 'Forsa',
-    img: 'showcase1.png',
+    img: 'showcase/forsa.png',
     stacks: [
       {
-        title: 'Typescript',
-        url: 'https://google.com',
+        title: 'Javascript',
+        url: 'https://w3schools.com/js',
       },
       {
         title: 'Next Js',
-        url: 'https://google.com',
+        url: 'https://nextjs.org',
       },
       {
         title: 'React Js',
-        url: 'https://google.com',
+        url: 'https://react.dev',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
     ],
     links: [
@@ -257,23 +257,23 @@ let showcaseData = [
   },
   {
     title: 'Buku Tahunan',
-    img: 'showcase1.png',
+    img: 'showcase/buku-tahunan.png',
     stacks: [
       {
         title: 'Javascript',
-        url: 'https://google.com',
+        url: 'https://w3schools.com/js',
       },
       {
         title: 'Next Js',
-        url: 'https://google.com',
+        url: 'https://nextjs.org',
       },
       {
         title: 'React Js',
-        url: 'https://google.com',
+        url: 'https://react.dev',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
     ],
     links: [
@@ -289,23 +289,23 @@ let showcaseData = [
   },
   {
     title: 'Personal Web',
-    img: 'showcase1.png',
+    img: 'showcase/personal web.png',
     stacks: [
       {
         title: 'Javascript',
-        url: 'https://google.com',
+        url: 'https://w3schools.com/js',
       },
       {
         title: 'Next Js',
-        url: 'https://google.com',
+        url: 'https://nextjs.org',
       },
       {
         title: 'React Js',
-        url: 'https://google.com',
+        url: 'https://react.dev',
       },
       {
         title: 'Tailwind Css',
-        url: 'https://google.com',
+        url: 'https://tailwindcss.com',
       },
     ],
     links: [
@@ -384,7 +384,7 @@ showcase.insertAdjacentHTML(
     .map(
       (e) => `
   <div class="showcase">
-    <img src="assets/showcase1.jpg" alt="Showcase 1" />
+    <img src="assets/${e.img}" alt="Showcase 1" />
       <h2>${e.title}</h2>
       <section class="stacks">
        ${e.stacks
