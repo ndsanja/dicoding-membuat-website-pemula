@@ -1,8 +1,16 @@
 let showcaseData = [
   {
-    title: 'Showcase 1',
+    title: 'ND Sanja Web',
     img: 'showcase1.png',
     stacks: [
+      {
+        title: 'HTML',
+        url: 'https://google.com',
+      },
+      {
+        title: 'CSS',
+        url: 'https://google.com',
+      },
       {
         title: 'Javascript',
         url: 'https://google.com',
@@ -11,51 +19,303 @@ let showcaseData = [
     links: [
       {
         title: 'preview',
-        url: 'https://google.com',
+        url: 'https://niladwisanja.vercel.app/',
       },
       {
         title: 'github',
-        url: 'https://github.com',
+        url: 'https://github.com/ndsanja/dicoding-membuat-website-pemula',
       },
     ],
   },
   {
-    title: 'Showcase 1',
+    title: 'Ulem',
     img: 'showcase1.png',
     stacks: [
       {
-        title: 'Javascript',
+        title: 'Typescript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Nuxt Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Vue Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
         url: 'https://google.com',
       },
     ],
     links: [
       {
         title: 'preview',
-        url: 'https://google.com',
+        url: 'https://ulemnuxt.vercel.app/editor',
       },
       {
         title: 'github',
-        url: 'https://github.com',
+        url: 'https://github.com/ndsanja/ulemnuxt',
       },
     ],
   },
   {
-    title: 'Showcase 1',
+    title: 'Duapuluh17',
     img: 'showcase1.png',
     stacks: [
       {
-        title: 'Javascript',
+        title: 'Typescript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Next Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'React Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Mantine Css',
         url: 'https://google.com',
       },
     ],
     links: [
       {
         title: 'preview',
-        url: 'https://google.com',
+        url: 'https://duapuluh17web.vercel.app/',
       },
       {
         title: 'github',
-        url: 'https://github.com',
+        url: 'https://github.com/ndsanja/2017-mantine',
+      },
+    ],
+  },
+  {
+    title: 'Mili',
+    img: 'showcase1.png',
+    stacks: [
+      {
+        title: 'Typescript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Next Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'React Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Framer Motion',
+        url: 'https://google.com',
+      },
+    ],
+    links: [
+      {
+        title: 'preview',
+        url: 'https://milispace.vercel.app/',
+      },
+      {
+        title: 'github',
+        url: 'https://github.com/ndsanja/mili',
+      },
+    ],
+  },
+  {
+    title: 'Pijar',
+    img: 'showcase1.png',
+    stacks: [
+      {
+        title: 'Typescript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Sveltekit',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Svelte',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
+        url: 'https://google.com',
+      },
+    ],
+    links: [
+      {
+        title: 'preview',
+        url: 'https://pijartest.vercel.app/app',
+      },
+      {
+        title: 'github',
+        url: 'https://github.com/ndsanja/pijar-sveltekit-md3',
+      },
+    ],
+  },
+  {
+    title: 'Pijar - Sekolah Terbuka',
+    img: 'showcase1.png',
+    stacks: [
+      {
+        title: 'Typescript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Nuxt Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Vue Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
+        url: 'https://google.com',
+      },
+    ],
+    links: [
+      {
+        title: 'preview',
+        url: 'https://sekolahpijar.vercel.app/',
+      },
+      {
+        title: 'github',
+        url: 'https://github.com/ndsanja/sekolahpijar',
+      },
+    ],
+  },
+  {
+    title: 'Sunnyside Agency',
+    img: 'showcase1.png',
+    stacks: [
+      {
+        title: 'Typescript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Next Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'React Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
+        url: 'https://google.com',
+      },
+    ],
+    links: [
+      {
+        title: 'preview',
+        url: 'https://ndsanja-sunnyside-agency-landing-page-recreate.vercel.app/',
+      },
+      {
+        title: 'github',
+        url: 'https://github.com/ndsanja/sunnyside-agency-landing-page-recreate',
+      },
+    ],
+  },
+  {
+    title: 'Forsa',
+    img: 'showcase1.png',
+    stacks: [
+      {
+        title: 'Typescript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Next Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'React Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
+        url: 'https://google.com',
+      },
+    ],
+    links: [
+      {
+        title: 'preview',
+        url: 'https://forsa.vercel.app/',
+      },
+      {
+        title: 'github',
+        url: 'https://github.com/ndsanja/forsa',
+      },
+    ],
+  },
+  {
+    title: 'Buku Tahunan',
+    img: 'showcase1.png',
+    stacks: [
+      {
+        title: 'Javascript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Next Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'React Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
+        url: 'https://google.com',
+      },
+    ],
+    links: [
+      {
+        title: 'preview',
+        url: 'https://bukutahunan-ndsanja.vercel.app/timeline',
+      },
+      {
+        title: 'github',
+        url: 'https://github.com/ndsanja/bukutahunan',
+      },
+    ],
+  },
+  {
+    title: 'Personal Web',
+    img: 'showcase1.png',
+    stacks: [
+      {
+        title: 'Javascript',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Next Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'React Js',
+        url: 'https://google.com',
+      },
+      {
+        title: 'Tailwind Css',
+        url: 'https://google.com',
+      },
+    ],
+    links: [
+      {
+        title: 'preview',
+        url: 'https://andika-git-master-ndsanja.vercel.app/',
+      },
+      {
+        title: 'github',
+        url: 'https://github.com/ndsanja/andikawebsite',
       },
     ],
   },
@@ -128,7 +388,10 @@ showcase.insertAdjacentHTML(
       <h2>${e.title}</h2>
       <section class="stacks">
        ${e.stacks
-         .map((stack) => `<a href="${stack.url}">${stack.title}</a>`)
+         .map(
+           (stack) =>
+             `<a href="${stack.url}" target="_blank">${stack.title}</a>`
+         )
          .join('')}
       </section>
       <section class="links">
@@ -141,7 +404,7 @@ showcase.insertAdjacentHTML(
               ? '<span><i class="fa-solid fa-eye"></i></span>'
               : '<span><i class="fa-brands fa-github"></i></span>'
           }
-            <a href="${link.url}">${link.title}</a>
+            <a href="${link.url}" target="_blank">${link.title}</a>
           </div>`
         )
         .join('')}
