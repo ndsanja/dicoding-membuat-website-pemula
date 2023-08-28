@@ -65,6 +65,7 @@ a {
   min-height: 300px;
   display: flex;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .hero .title h2 {
@@ -72,7 +73,7 @@ a {
 }
 
 .hero img {
-  position: absolute;
+  position: fixed;
   z-index: -10;
   right: 0px;
   width: 600px;
@@ -247,6 +248,10 @@ footer p {
     flex-direction: column;
   }
 
+  .content h1 {
+    text-align: center;
+  }
+
   .profile {
     margin-top: 42px;
     min-width: 0px;
@@ -256,6 +261,17 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+  .top-header {
+    padding-inline: 16px;
+  }
+
+  .hero {
+    padding-inline: 16px;
+  }
+
+  main {
+    padding-inline: 16px;
+  }
   .navigation .dekstop {
     display: none;
   }

@@ -88,11 +88,6 @@ let skillsData = [
     url: 'https://www.dicoding.com/users/niladwisanja/academies',
   },
   {
-    title: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud).png',
-    img: 'skills/Cloud Practitioner Essentials (Belajar Dasar AWS Cloud).png',
-    url: 'https://www.dicoding.com/users/niladwisanja/academies',
-  },
-  {
     title: 'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
     img: 'skills/Cloud Practitioner Essentials (Belajar Dasar AWS Cloud).png',
     url: 'https://www.dicoding.com/users/niladwisanja/academies',
@@ -111,28 +106,16 @@ let mobileMenuItem = document.querySelectorAll('.menu-item');
 let mobileMenu = document.querySelector('.mobile');
 
 //handle mobile mwnu
-let isOpen = false;
 
 burger?.addEventListener('click', () => {
-  isOpen = !isOpen;
-  if (isOpen) {
-    mobileMenu.classList.add('hidden');
-  } else {
-    mobileMenu.classList.remove('hidden');
-  }
+  mobileMenu.classList.remove('hidden');
 });
 
 mobileMenuItem?.forEach((e) => {
   e.addEventListener('click', () => {
-    isOpen = !isOpen;
-    if (isOpen) {
-      mobileMenu.classList.add('hidden');
-    } else {
-      mobileMenu.classList.remove('hidden');
-    }
+    mobileMenu.classList.add('hidden');
   });
 });
-console.log(isOpen);
 
 // Mapping Shocase Card
 showcase.insertAdjacentHTML(
